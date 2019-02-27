@@ -3,13 +3,13 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req,res){
-    res.send('Helloo World!');
+    res.send('Hello World!');
 });
 
 app.listen(process.env.PORT || 3000);
 
 function stop() {
-    server.close();
+    // server.close();
   }
 
 module.exports = app;
