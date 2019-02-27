@@ -9,7 +9,7 @@ app.get('/', function(req,res){
 app.listen(process.env.PORT || 3000);
 
 function stop() {
-    server.close();
+    // server.close();
   }
 
 module.exports = app;
